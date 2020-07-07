@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 df=pd.read_csv("C:\\Users/User/Downloads/pima-data.csv")
-print(df)
+#print(df)
 print(df.corr())
 df=df.drop('skin',1)
 print(df)
